@@ -15,7 +15,7 @@ II. Install darknet:
         make
         
 III. Clone source code:
-    git clone https://git.ntq.solutions/tung.duong.thanh/person-counter.git 
+    git clone https://github.com/dttvn0010/person_counter.git
 
 IV. Open "config.json", change : "darknet_libpath" to installed darknet library path ( for example: /home/<user>/darknet/libdarknet.so):       
     
