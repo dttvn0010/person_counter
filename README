@@ -1,0 +1,25 @@
+I. Install cuda 10.0, cudnn
+
+II. Install darknet:
+    1. Run: 
+        git clone https://github.com/pjreddie/darknet
+    2. Run:
+        cd darknet
+    3. Change Makefile with configuration:
+        GPU=1
+        CUDNN=1
+        OPENCV=0
+        OPENMP=1
+        DEBUG=0
+    4. Run : 
+        make
+        
+III. Clone source code:
+    git clone https://git.ntq.solutions/tung.duong.thanh/person-counter.git 
+
+IV. Open "config.json", change : "darknet_libpath" to installed darknet library path ( for example: /home/<user>/darknet/libdarknet.so):       
+    
+IV.Run demo:
+    python3 demo.py sample.mp4 
+Output file: output.avi, output.txt   
+ 

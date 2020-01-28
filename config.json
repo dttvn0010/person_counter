@@ -1,0 +1,17 @@
+{       
+    "darknet_libpath" : "/home/dttvn1001/darknet/libdarknet.so",
+    "model_cfg" : "data/yolov2.cfg",
+    "model_weights" : "data/yolov2.weights",
+    "model_data" : "data/coco.data",
+    "network_input_width": 512,
+    "network_input_height": 288,
+    "counter_ythresh" : 192,
+    "counter_dy" : 18,
+    "recent_frame_thresh" : 8,
+    "frame_thresh" : 16,
+    "max_samples_regress" : 6,
+    "dist_thresh" : 0.8,
+    "max_history" : 120,
+    "video_framerate": 14,
+    "upsampling": 2
+}
