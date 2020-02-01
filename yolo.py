@@ -149,7 +149,7 @@ class Model:
         
 import cv2
 def test():
-    model = Model("data/yolov3.cfg", "data/yolov3.weights", "data/coco.data")
+    model = Model("data/yolov2.cfg", "data/yolov2.weights", "data/coco.data")
     img = cv2.imread("sample/0001.jpg")
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     rects = model.detect(array_to_image(img))
