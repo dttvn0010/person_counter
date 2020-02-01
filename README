@@ -19,7 +19,7 @@ III. Clone source code:
 
 IV. Open "config.json", change : "darknet_libpath" to installed darknet library path ( for example: /home/<user>/darknet/libdarknet.so):       
 
-V. Download weight file from https://pjreddie.com/media/files/yolov2-voc.weights and copy into folder "data"
+V. Download weight file from https://pjreddie.com/media/files/yolov2.weights and copy into folder "data"
 
 VI.Run demo:
     python3 demo.py sample.mp4 
