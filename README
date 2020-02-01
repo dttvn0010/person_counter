@@ -18,8 +18,11 @@ III. Clone source code:
     git clone https://github.com/dttvn0010/person_counter.git
 
 IV. Open "config.json", change : "darknet_libpath" to installed darknet library path ( for example: /home/<user>/darknet/libdarknet.so):       
-    
-IV.Run demo:
+
+V. Download weight file from https://pjreddie.com/media/files/yolov2-voc.weights and copy into folder "data"
+
+VI.Run demo:
     python3 demo.py sample.mp4 
+
 Output file: output.avi, output.txt   
  
